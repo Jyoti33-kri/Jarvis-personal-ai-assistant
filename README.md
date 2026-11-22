@@ -76,6 +76,58 @@ Sakhi AI addresses this by bringing multiple everyday assistance features into o
 | Python-dotenv | Secure environment configuration |
 | JSON | Local storage for journal and reminder data |
 
+## 🏗️ System Architecture
+
+Sakhi AI follows a modular architecture that connects user interaction, AI processing, and useful everyday assistance.
+
+### Conceptual Workflow
+
+```text
+             USER INPUT
+       (Text / Voice / Language)
+                  |
+                  v
+        STREAMLIT INTERFACE
+          (app.py)
+                  |
+                  v
+          SAKHI AI CORE
+         (sakhi_core.py)
+                  |
+                  v
+         GOOGLE GEMINI API
+       (Generative AI Processing)
+                  |
+                  v
+          AI-GENERATED RESPONSE
+                  |
+          +-------+-------+
+          |               |
+          v               v
+      TEXT OUTPUT     VOICE OUTPUT
+          |               |
+          +-------+-------+
+                  |
+                  v
+          USEFUL ASSISTANCE
+
+ Supporting Modules:
+ - voice_assistant.py
+ - voice_engine.py
+ - Local JSON storage for journal and reminders
+```
+
+### Architecture Components
+
+1. **User Input:** Accepts text and supported voice input.
+2. **Streamlit Interface:** Provides the user-facing application.
+3. **Sakhi AI Core:** Handles prompts and communicates with Gemini.
+4. **Gemini AI:** Generates natural-language responses.
+5. **Voice Engine:** Supports speech generation and audio playback.
+6. **Local Storage:** Stores journal entries and reminder information.
+
+The architecture is modular, making it easier to maintain and extend the application.
+
 ## 📂 Project Structure
 
 ```text
@@ -91,6 +143,7 @@ Jarvis-personal-ai-assistant/
 │
 └── data/                   # Local journal and reminder data
 ```
+
 
 ## ⚙️ Installation & Setup
 
