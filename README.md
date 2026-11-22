@@ -297,19 +297,21 @@ We plan to improve Sakhi AI with:
 - More extensive automated testing.
 - Offline support for selected basic features.
 
-## ▶️ Demo & Screenshots
+## 🎬 Project Demonstration
 
-Add your actual project screenshots and demo video link here before final submission.
+Sakhi AI is demonstrated through its working web application and voice assistant interface.
 
-Suggested screenshots:
-1. Sakhi AI home/dashboard.
-2. AI Assistant conversation.
-3. Voice interaction.
-4. Study Assistant.
-5. Digital Safety.
-6. Journal and Smart Reminders.
+The MVP includes:
+- AI-powered conversations
+- Multilingual interaction
+- Voice input and audio responses
+- Study assistance
+- Digital safety guidance
+- Personal journal and reminders
 
-**Demo Video:** Add your public demo video link here.
+ demonstration will be added after final functionality testing.
+
+
 
 ## 📌 Hackathon Project Information
 
