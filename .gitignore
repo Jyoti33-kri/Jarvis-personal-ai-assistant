@@ -1,0 +1,16 @@
+
+.env
+.venv/
+__pycache__/
+data/*.json
+
+
+# Local archives and audio files
+*.zip
+*.mp3
+
+# Python cache
+*.pyc
+
+# Streamlit secrets
+.streamlit/secrets.toml
